@@ -66,5 +66,5 @@ int main(int argc, char** argv)
   ros::NodeHandle nh;
 
   PubGoStraightVel pubgostraightvel(nh);
-  pubgostraightvel.pubGoStraightVel(1.0);
+  pubgostraightvel.pubGoStraightVel(3.0);
 }
